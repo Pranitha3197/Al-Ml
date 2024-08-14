@@ -4,7 +4,8 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM+IBp3F0WWjh5AzXUrn1VN"
+      "authorship_tag": "ABX9TyM+IBp3F0WWjh5AzXUrn1VN",
+      "include_colab_link": true
     },
     "kernelspec": {
       "name": "python3",
@@ -16,12 +17,23 @@
   },
   "cells": [
     {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pranitha3197/Al-Ml/blob/main/lab%201%20Ploting\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
       "cell_type": "code",
       "execution_count": 2,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
+        "collapsed": true,
         "id": "8R_jI_ia-tRa",
         "outputId": "6f8edc93-8f8c-44b4-b2c6-5fdd719fd52f"
       },
@@ -92,7 +104,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 693
+          "height": 673
         },
         "id": "d_5YeXLPHp0G",
         "outputId": "67f898fb-cf36-465f-c932-124d10187163"
@@ -152,7 +164,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 693
+          "height": 673
         },
         "id": "MYE2A-XCMnoO",
         "outputId": "ed07334d-388a-4e71-8582-08678384ffc7"
