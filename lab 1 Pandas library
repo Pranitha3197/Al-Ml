@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPM1BDHiVPwFk9GwFt10NVA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Pranitha3197/Al-Ml/blob/main/lab%201%20Pandas%20library\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8R_jI_ia-tRa",
+        "outputId": "6f8edc93-8f8c-44b4-b2c6-5fdd719fd52f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (2.1.4)\n",
+            "Requirement already satisfied: numpy<2,>=1.22.4 in /usr/local/lib/python3.10/dist-packages (from pandas) (1.26.4)\n",
+            "Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.10/dist-packages (from pandas) (2.8.2)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2024.1)\n",
+            "Requirement already satisfied: tzdata>=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2024.1)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)\n",
+            "      Name  Age  Height  Weight\n",
+            "0     Ashu   21     160      55\n",
+            "1    Jashu   19     155      60\n",
+            "2  Nidhish   24     178      63\n",
+            "3  Karthik   28     168      68\n"
+          ]
+        }
+      ],
+      "source": [
+        "!pip install pandas\n",
+        "import pandas as pd\n",
+        "people =['Ashu','Jashu','Nidhish','Karthik']\n",
+        "age =[21,19,24,28]\n",
+        "height =[160,155,178,168]\n",
+        "weight =[55,60,63,68]\n",
+        "data ={\n",
+        "    'Name': people,\n",
+        "    'Age': age,\n",
+        "    'Height': height,\n",
+        "    'Weight': weight,\n",
+        "\n",
+        "}\n",
+        "df =pd.DataFrame(data)\n",
+        "print(df)"
+      ]
+    }
+  ]
+}
